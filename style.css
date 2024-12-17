@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f8fc; /* Light grayish-blue background */
+    margin: 0;
+    padding: 0;
+}
+
+.form-container {
+    max-width: 450px; /* Increased to accommodate more fields */
+    margin: 50px auto;
+    padding: 25px; /* Slightly increased for better spacing */
+    background: #ffffff; /* White background for the form */
+    border-radius: 8px; /* Rounded corners for modern look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Slightly deeper shadow */
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50; /* Dark blue-gray for text */
+    font-size: 1.8em; /* Slightly larger font */
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #34495e; /* A darker shade for labels */
+    font-size: 0.95em;
+}
+
+input, textarea, select, button {
+    width: 100%;
+    padding: 12px; /* Increased padding for better usability */
+    margin-bottom: 15px; /* Consistent spacing between elements */
+    border: 1px solid #ecf0f1; /* Subtle light gray border */
+    border-radius: 6px; /* Softer corners for inputs */
+    font-size: 1em; /* Uniform text size */
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: #3498db; /* Vibrant blue focus border */
+    outline: none;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5); /* Glow effect on focus */
+}
+
+textarea {
+    resize: none; /* Prevent resizing for consistency */
+}
+
+button {
+    background-color: #3498db; /* Vibrant blue for buttons */
+    color: #ffffff; /* White text for contrast */
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effects */
+}
+
+button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+    transform: scale(1.02); /* Slight scaling effect */
+}
+
+button:active {
+    background-color: #1f6391; /* Even darker blue on click */
+    transform: scale(0.98); /* Slight shrinking effect */
+}
+
+input[type="checkbox"] {
+    width: auto; /* Default checkbox size */
+    margin-right: 8px; /* Space between checkbox and label */
+}
+
+#response {
+    text-align: center;
+    font-size: 1em;
+    color: #2c3e50;
+}
+
+@media screen and (max-width: 600px) {
+    .form-container {
+        padding: 15px; /* Adjust padding for smaller screens */
+        margin: 20px;
+    }
+
+    h1 {
+        font-size: 1.5em; /* Reduce heading size */
+    }
+
+    button {
+        font-size: 1em; /* Adjust button font size */
+    }
+}
