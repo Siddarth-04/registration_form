@@ -42,7 +42,8 @@ The PHP file processes the form data:
 ![Desktop View](https://via.placeholder.com/800x400.png?text=Desktop+View)
 
 ### Mobile View
-![Mobile View](https://via.placeholder.com/400x800.png?text=Mobile+View)
+![mobile](https://github.com/user-attachments/assets/96cfebda-6e8e-43bf-a9d2-070d8c5bb420)
+
 
 ---
 
